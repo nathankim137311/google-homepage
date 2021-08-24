@@ -1,0 +1,72 @@
+@import "globals";
+@import "variables";
+
+header {
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+  height: 10vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.nav-a, .nav-b {
+  display: flex;
+  align-items: center;
+  margin: 2px;
+  ul {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 5px;
+    height: 50px;
+    li {
+      list-style: none;
+      margin: 0px 10px 0px 10px;
+      font-size: 0.8125rem;
+      a:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.nav-b ul {
+  width: 250px;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: $darkgrey;
+  span {
+    display: flex;
+    color: $lightgrey;
+    align-items: center;
+    margin-right: 10px;
+  }
+}
+
+.sign-in {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  background-color: #4386F9;
+  border-radius: 2px;
+  height: 30px;
+  width: 70px;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+}
+
+
+
+

@@ -1,0 +1,39 @@
+@import "globals";
+@import "variables";
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0px;
+  width: auto;
+}
+
+input {
+  width: 480px;
+  height: 45px;
+  border-radius: 30px;
+  border: #DFE1E5 1px solid;
+}
+
+.img-container {
+  margin: 100px 5px 30px 5px;
+}
+
+button {
+  margin: 30px 5px 100px 5px; 
+  background-color: #F4F4F4;
+  color: $lightgrey;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 130px;
+  font-size: 14px;
+}
+
+button:hover {
+  cursor: pointer;
+  border: grey 1px solid;
+  color: $darkgrey;
+}
